@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: rgb(0,0,0);
+    background-image: url("sigma.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+nav{
+    position: absolute;
+    bottom: 8vh;
+    width: 100%;
+    height: 8vh;
+}
+
+nav ul{
+    display: flex;
+    width: 40vw;
+    margin-inline: auto;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 5vw;
+    background-color: rgba(255, 255, 255, 0.027);
+    backdrop-filter: blur(15px);
+    padding:0vw 5vw;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(255, 255, 255, 0.651);
+    
+
+}
+
+nav ul li:hover{
+    cursor: pointer;
+    color: rgb(141, 20, 20);
+}
+
+
+
+.box1{
+    width: 30vw;
+    height: 70vh;
+    background-color: rgba(255, 255, 255, 0.041);
+    margin-block: auto;
+    border-radius: 30px;
+    margin-left: 10px;
+    transform: translateX(-95%);
+    transform-origin: bottom;
+}
+.boxcontainer{
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+   
+}
+.box2{
+    width: 30vw;
+    height: 70vh;
+    background-color: rgba(255, 255, 255, 0.041);
+    margin-block: auto;
+    border-radius: 30px;
+    margin-right: 10px;
+    transform: translateX(95%);
+    transform-origin: bottom;
+}
+
+.socialnav{
+    position: absolute;
+    color: white;
+    font-size: 1.5rem;
+    top: 5%;
+    left: 5%;
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    border-radius: 50px;
+    padding: 2vh 0vh;
+    background-color: rgba(255, 255, 255, 0.062);
+}
+
+
+.socialnav > a{
+    text-decoration: none;
+    color: white;
+}
+
+.socialnav > a:hover{
+    scale:1.2;
+}
+
+
+nav ul .signup{
+    display: none;
+
+    opacity: 0;
+    width: fit-content;
+}
+
+nav ul .signup span{
+    display: inline-block;
+}
+
+nav ul .signup h1{
+    color: white;
+    font-size: 2rem;
+text-align: center;}
+
+nav ul .signup span input{
+    
+    outline: none;
+    border: none;
+    width: 20vw;
+    height: 5vh;
+    margin-top: 5vh;
+    background-color: rgba(0, 0, 0, 0.425);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 50px;
+}
+
+nav ul .signup span:nth-child(2) div{
+    height: 5vh;
+    margin-top: 5vh;
+}
+
+nav ul .signup button{
+    display: block;
+    margin-inline:auto;
+    margin-top: 10vh;
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.425);
+    color: white;
+    font-size: 1rem;
+    width: 10vw;
+    height: 8vh;
+}
+
+nav ul .signup button:nth-child(6){
+    font-size: 2rem;
+    margin-top: 5vh;
+}
+
+nav ul .signup button:hover{
+    cursor: pointer;
+    color: rgb(141, 20, 20);
+}
+
+/* the signin part starts */
+
+nav ul .signin{
+    display: none;
+
+    opacity: 0;
+    width: fit-content;
+}
+
+nav ul .signin span{
+    display: inline-block;
+}
+
+nav ul .signin h1{
+    color: white;
+    font-size: 2rem;
+text-align: center;}
+
+nav ul .signin span input{
+    
+    outline: none;
+    border: none;
+    width: 20vw;
+    height: 5vh;
+    margin-top: 5vh;
+    background-color: rgba(0, 0, 0, 0.425);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 50px;
+}
+
+nav ul .signin span:nth-child(2) div{
+    height: 5vh;
+    margin-top: 5vh;
+}
+
+nav ul .signin button{
+    display: block;
+    margin-inline:auto;
+    margin-top: 10vh;
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.425);
+    color: white;
+    font-size: 1rem;
+    width: 10vw;
+    height: 8vh;
+}
+
+nav ul .signin button:nth-child(6){
+    font-size: 2rem;
+    margin-top: 5vh;
+}
+
+nav ul .signin button:hover{
+    cursor: pointer;
+    color: rgb(141, 20, 20);
+}
