@@ -4,5 +4,8 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.8.0",
     "zod": "^3.23.8"
+  },
+  "scripts": {
+    "start": "node api/server.js"
   }
 }
